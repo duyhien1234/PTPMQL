@@ -7,6 +7,17 @@ using DangDuyHien2002.Controllers;
     {
         return View();
     }
+    [HttpPost]
+    public IActionResult Index(string FullName)
+    {
+        string strReturn = "Hello" + FullName;
+        //gui du lieu ve view
+        ViewBag.Thongbao = strReturn;
+        return View();
+
+
+    }
+    
 
     public IActionResult About()
     {
