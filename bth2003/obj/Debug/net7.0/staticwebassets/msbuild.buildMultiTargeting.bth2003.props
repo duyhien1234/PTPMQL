@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bth2003.props" />
+</Project>
